@@ -1,0 +1,73 @@
+/* Reset & base styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Page layout */
+body {
+  background-color: #f4f6f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 40px;
+}
+
+/* Main content container */
+body > h1,
+body > h2,
+body > h3,
+body > p,
+body > a {
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+}
+
+/* Headings */
+h1 {
+  color: #004b8d; /* Capgemini-like blue */
+  margin-bottom: 15px;
+}
+
+h2 {
+  color: #005eb8;
+  margin-top: 25px;
+}
+
+h3 {
+  color: #333;
+  margin-top: 20px;
+}
+
+/* Paragraphs */
+p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* Button styling */
+button {
+  background-color: #0070ad;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005b8f;
+}
+
+/* Link reset */
+a {
+  text-decoration: none;
+}
+
+/* Center button */
+a button {
+  display: inline-block;
+}
